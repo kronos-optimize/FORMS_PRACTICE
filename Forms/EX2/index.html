@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Form</title>
+    </head>
+    <body>
+        <div class="container">
+                <h2 class="head">Create Account</h2>
+                <form>
+                        <div class="name">
+                            <div class="row">
+                                <label>First Name*</label>
+                                <input type="text" placeholder="enter your first name">
+                            </div>
+                            <div class="row"> 
+                                <label>Last Name</label>
+                                <input type="text" placeholder="enter your last name">
+                            </div>
+                        </div>
+                    <div>
+                        <div class="email">
+                            <label>Email*</label>
+                            <input type="text" placeholder="enter your email">
+                        </div>
+                    </div>
+                    <div class="psw">
+                        <div class="row">
+                            <label>Password*</label>
+                            <input type="text" placeholder="enter your password">
+                        </div>
+                        <div class="row">
+                            <label>Confirm Password*</label>
+                            <input type="text" placeholder="enter your password again">
+                        </div>
+                    </div>
+                    <div class="about-you">
+                        <div class="row">
+                            <label>Gender:</label>
+                            <div class="gender">
+                                <input type="radio">
+                                <label>Female</label>
+                                <input type="radio">
+                                <label>Male</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label>Hobbies:</label>
+                            <div class="hobbies">
+                                <input type="checkbox">
+                                <label>Music</label>
+                                <input type="checkbox">
+                                <label>Sports</label>
+                                <input type="checkbox">
+                                <label>Travel</label>
+                                <input type="checkbox">
+                                <label>Movies</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="income">
+                        <div>
+                            <div class="row">
+                                <label>Source of Income</label>
+                                <select>
+                                    <option value="0">Employed</option>
+                                    <option value="1">Unemployed</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label>Income</label>
+                            <div class="column">
+                                <input type="range" min="0" max="20000">
+                                <button>20K</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="you">
+                        <div class="row">
+                            <label>Upload Profile Picture</label>
+                            <input type="file">
+                        </div>
+                        <div class="row">
+                            <label>Age</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="bio row">
+                        <label>Bio</label>
+                        <textarea row="5" cols="7"></textarea>
+                    </div>
+                </form>
+            <div class="form-bottom">
+                <button id="create">Create</button>
+            </div>
+        </div>
+    </body>
+</html>

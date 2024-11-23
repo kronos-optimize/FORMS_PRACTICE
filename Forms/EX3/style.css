@@ -1,0 +1,107 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-rows: 90px 300px 1fr;
+    background-color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.head{
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    text-align: center;
+}
+
+.form-body{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.sign-up{
+    justify-content: center;
+    text-align: center;
+}
+
+.info{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.form-bottom{
+    text-align: center;
+    display: grid;
+}
+.row{
+    display: grid;
+    grid-template-rows: 20px 1fr;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #ccc;
+}
+
+input:hover{
+    border-color: rgb(25, 157, 213);
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(51, 78, 128);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.google{
+    padding: 0px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+span{
+    color: rgb(28, 93, 215);
+    cursor: pointer;
+}
+
+.break{
+    text-align: center;
+    margin: 20px;
+}
+
+.line{
+    display: inline-block;
+    width: calc((100%/2) - 20px);
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or{
+    display: inline-block;
+    margin: 0 5px;
+    color: black;
+    cursor: auto;
+}

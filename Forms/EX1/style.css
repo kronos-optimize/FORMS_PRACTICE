@@ -1,0 +1,16 @@
+#highlight:focus{
+    background-color: yellow;
+}
+
+#click:hover{
+    background-color: blue;
+}
+
+#search{
+    border-radius: 10px;
+    box-shadow: 8px 3px 8px #888888;
+}
+
+#box:indeterimnate{
+    box-shadow: 0 0 0 0.5rem rgb(155, 0, 200);
+}
